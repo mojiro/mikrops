@@ -5,7 +5,7 @@ MikrOps is a project that tries to bring together all those little services that
 
 Currently Syslog and Ansible are fully integrated and I am trying to solve several small bugs and make the project presentable.
 
-The Ansible integration was based onto the project [YaMa](https://github.com/mojiro/yama).
+The Ansible integration is based onto the project [YaMa](https://github.com/mojiro/yama) that I wrote last year.
 
 ![mikrops area devices](mikrops-area-devices.png)
 
