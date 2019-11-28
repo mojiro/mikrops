@@ -7,6 +7,37 @@ Currently Syslog and Ansible are fully integrated and I am trying to solve sever
 
 The Ansible integration is based onto the project [YaMa](https://github.com/mojiro/yama) that I wrote last year.
 
+----
+
+## Installation
+
+### Prerequisites
+1. Clean Ubuntu Server installation.
+2. No running Docker containers. All containers will be removed during installation.
+
+### Prepare installation files
+
+```
+cd /opt
+git clone https://github.com/mojiro/mikrops
+cd mikrops
+find . -name '*.sh' | xargs chmod +x
+cp config/settings.conf.dist config/settings.conf
+```
+
+### Configuration
+
+Edit file `config/settings.conf`
+
+### Installation
+```
+./install.sh
+```
+
+----
+
+## Images
+
 ![mikrops area devices](mikrops-area-devices.png)
 
 ![mikrops execution start](mikrops-execution-start.png)
